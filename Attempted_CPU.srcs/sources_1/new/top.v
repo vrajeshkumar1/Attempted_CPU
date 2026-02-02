@@ -69,7 +69,7 @@ else
             7'b0110011:
                 assign funct7=instruction[31:25];
                 //check instruction to run
-                
+                //all r32m instructions are also here
             7'b0010011:
                 if((funct3==1)&&(instruction[31:25]==0))
                 begin
@@ -84,6 +84,21 @@ else
                     //store in mem address(instruction[11:7])=load from mem address instruction[19:15]<<instruction[20:24] while extending msb
                     //shift right arith imm
                 end
+            7'b1101111:
+            //jump and link
+            7'b0110111:
+            //load upper immediate
+            7'b0010111:
+            //add upper immediate to process counter
+            
+            //float extension stuff below
+            7'b1001011:
+            7'b1010011:
+            7'b1000011:
+            7'b0000111:
+            7'b0100111:
+            7'b1001111:
+            7'b1000111:
             endcase
             
         end
