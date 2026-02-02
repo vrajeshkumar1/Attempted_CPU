@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Jan 10 21:30:54 2026
+# Process ID         : 24940
+# Current directory  : C:/Users/Vrajesh Kumar/Desktop/Verilog stuff/Attempted_CPU/Attempted_CPU.runs/blk_mem_gen_0_synth_1
+# Command line       : vivado.exe -log blk_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_0.tcl
+# Log file           : C:/Users/Vrajesh Kumar/Desktop/Verilog stuff/Attempted_CPU/Attempted_CPU.runs/blk_mem_gen_0_synth_1/blk_mem_gen_0.vds
+# Journal file       : C:/Users/Vrajesh Kumar/Desktop/Verilog stuff/Attempted_CPU/Attempted_CPU.runs/blk_mem_gen_0_synth_1\vivado.jou
+# Running On         : Vrajeshpc
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 8645HS w/ Radeon 760M Graphics
+# CPU Frequency      : 4292 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 25025 MB
+# Swap memory        : 2453 MB
+# Total Virtual      : 27479 MB
+# Available Virtual  : 10241 MB
+#-----------------------------------------------------------
+source blk_mem_gen_0.tcl -notrace
